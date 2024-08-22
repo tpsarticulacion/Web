@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinaria</title>
+  <!-- Agregar el enlace a Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Agregar un estilo personalizado */
+
+    .container {
+      margin-top: 50px;
+    }
+    h1 {
+      color: white;
+      font-size: 48px;
+      text-shadow: 2px 2px #000000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Agregar la barra de navegación -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="index.html">Veterinaria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactanos.html">Contáctanos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Agregar el contenido principal -->
+  <div class="container">
+    <h1>Contactanos</h1>
+    
+    <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu teléfono">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentario</label>
+          <textarea class="form-control" id="comentario" rows="3" placeholder="Ingresa tu comentario"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
+
+  </div>
+  <!-- Agregar los scripts de Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
